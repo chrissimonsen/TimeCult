@@ -61,7 +61,7 @@ public class TimeLogEntryEditDialog extends SWTDialog implements ICalendarDialog
     // A temporary hardcoded time precision.
     // TODO: Replace with configurable value.
     //
-    private final static long TIME_PRECISION_MS = 600000; // 10 minutes 
+    private final static long TIME_PRECISION_MS = 900000; // 10 minutes
     
     
     public TimeLogEntryEditDialog(SWTMainWindow mainWindow, Task task) {
